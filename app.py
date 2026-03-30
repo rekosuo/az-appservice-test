@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Azure Webapp Test"
+    return "Azure Webapp CI/CD Test"
 
 
 if __name__ == "__main__":
